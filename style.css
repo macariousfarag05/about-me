@@ -1,0 +1,25 @@
+/* About Me 4: Adding Some Style */
+/* Color palette: navy #152238, blue #29496B, pale blue #EAF1F8, white #FFFFFF, gold #D4A85B */
+:root {
+  --navy: #152238;
+  --blue: #29496B;
+  --pale-blue: #EAF1F8;
+  --white: #FFFFFF;
+  --gold: #D4A85B;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--pale-blue); color: var(--navy); font-family: 'Roboto', Arial, sans-serif; line-height: 1.7; }
+h1, h2 { font-family: 'Poppins', sans-serif; }
+header { background: var(--navy); color: var(--white); text-align: center; padding: 70px 20px; border-bottom: 6px solid var(--gold); }
+.header-content { max-width: 900px; margin: auto; }
+.eyebrow { color: #F1CF91; font-weight: 500; letter-spacing: .18em; font-size: .8rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.2; margin: 16px 0; }
+header p:last-child { font-size: 1.1rem; }
+main { max-width: 850px; margin: 40px auto; padding: 0 20px; }
+section { background: var(--white); padding: 30px; margin-bottom: 22px; border-radius: 14px; border-left: 6px solid var(--gold); box-shadow: 0 5px 18px rgba(21,34,56,.09); }
+h2 { color: var(--blue); margin: 0 0 12px; font-size: 1.45rem; }
+section p { margin: 0; }
+footer { background: var(--navy); color: var(--white); text-align: center; padding: 26px 16px; margin-top: 40px; }
+footer p { margin: 0; font-size: .95rem; }
+.name { color: #F1CF91; font-weight: 500; }
+@media (max-width: 600px) { header { padding: 48px 18px; } main { margin: 24px auto; } section { padding: 22px; } }
