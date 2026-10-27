@@ -45,3 +45,25 @@ footer p { margin: 0; font-size: .95rem; }
     padding: 10px;
     font-style: italic;
 }
+
+/* Article styling */
+article {
+    background-color: white;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 12px;
+    max-width: 850px;
+    border-left: 5px solid #D4A85B;
+}
+
+article h2 {
+    color: #29496B;
+    font-family: 'Poppins', sans-serif;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
