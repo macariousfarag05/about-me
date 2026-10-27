@@ -23,3 +23,25 @@ footer { background: var(--navy); color: var(--white); text-align: center; paddi
 footer p { margin: 0; font-size: .95rem; }
 .name { color: #F1CF91; font-weight: 500; }
 @media (max-width: 600px) { header { padding: 48px 18px; } main { margin: 24px auto; } section { padding: 22px; } }
+
+#gallery figure {
+    background-color: #EAF1F8;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#gallery img {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#gallery figcaption {
+    padding: 10px;
+    font-style: italic;
+}
