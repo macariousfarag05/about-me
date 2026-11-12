@@ -67,3 +67,11 @@ article p {
     line-height: 1.8;
     margin-bottom: 15px;
 }
+
+
+/* Embedded Midterm video: responsive 16:9 aspect ratio */
+#video-section { text-align: center; }
+#video-section figure { max-width: 760px; margin: 1rem auto 0; }
+#myVideo { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px; background: #152238; }
+#video-section figcaption { margin-top: 1rem; font-size: 1rem; font-style: italic; line-height: 1.5; }
+@media (max-width: 600px) { #video-section figure { width: 100%; } #myVideo { border-radius: 8px; } }
